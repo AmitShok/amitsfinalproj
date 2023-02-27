@@ -2,6 +2,8 @@
 # Amit's final project
 
 this is Amit's final project
+backend - https://amitstore.onrender.com
+frontend - https://animated-crepe-7e116c.netlify.app/
 ____
 to run project, open a new terminal 
 ____
