@@ -1,0 +1,57 @@
+.product_field {
+    padding: 15px;
+    background-color: white;
+    margin: 5px;
+    display: flex;
+    position: relative;
+}
+
+.items_list {
+    width: 59%;
+    margin: 5px;
+}
+
+.prod_info {
+    padding: 5px;
+}
+
+.amount_set {
+    position: absolute;
+    right: 10px;
+    bottom: 15%;
+    font-size: 20px;
+}
+
+.amount_btn {
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 11px;
+}
+
+.amount_btn:hover {
+    background-color: lightgrey;
+}
+
+.amount_info {
+    font-size: 18px;
+    padding: 2px;
+}
+
+.rmv_icon {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+.rmv_icon:hover{
+    color: red;
+}
+
+.order_summary {
+    width: 39%;
+    background-color: white;
+    text-align: center;
+    position: fixed;
+    height: 250px;
+    right: 15px;
+}

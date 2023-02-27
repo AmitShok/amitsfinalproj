@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    position: relative;
+    box-shadow: 2px 2px #000000;
+}
+
+.icon {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+
+
+.details_container {
+    padding: 5px;
+    margin: auto;
+    text-align: center;
+}
+
+.add2cart_btn {
+    background-color: #000000;
+    padding: 3px;
+    margin: 3px;
+    color: white;
+    border-radius: 25px;
+    font-weight: bolder;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 1px 1px #000000;
+}
+
+.main:hover{
+    box-shadow: 2px 2px #4cadfe;
+}

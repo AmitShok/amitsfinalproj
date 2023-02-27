@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+body,
+html {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    font-family: 'PT Sans', sans-serif;
+    margin: 0;
+    background-color: #edede9;
+    border-top: solid white;
+    border-left: solid white;
+    border-right: solid white;
+}           

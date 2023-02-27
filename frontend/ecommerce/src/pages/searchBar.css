@@ -1,0 +1,63 @@
+.searchBar {
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #000000;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 1px 1px #CCCCCC;
+  }
+  
+  .dropContent {
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 5px;
+    width: 40%;
+    max-height: 300px;
+    overflow-y: auto;
+    box-shadow: 1px 1px #CCCCCC;
+  }
+  
+  .dropContent > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #CCCCCC;
+  }
+  
+  .dropContent > div:hover {
+    background-color: #F5F5F5;
+  }
+  
+  .dropContent > div img {
+    margin-right: 10px;
+  }
+  
+  .dropContent > div > div:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .dropContent > div > div:last-child {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+  }
+  
+  .dropContent > div > div:last-child:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+  }
+  
+  .dropContent > div > div:last-child:active {
+    transform: translateY(1px);
+    box-shadow: none;
+  }
+  
