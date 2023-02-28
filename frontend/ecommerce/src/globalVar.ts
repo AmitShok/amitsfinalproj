@@ -1,1 +1,1 @@
-export const SERVER:string = "http://127.0.0.1:8000/";
+export const SERVER:string = "https://amitstore.onrender.com/";
