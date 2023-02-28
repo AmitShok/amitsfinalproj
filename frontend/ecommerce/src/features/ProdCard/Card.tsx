@@ -35,12 +35,13 @@ const Card = (props: any) => {
     }
     const tmp = Array.isArray(all_reviews) ? all_reviews.find((review: { product: any; }) => review.product === props.prod.id) : undefined;
     const tmprate = tmp ? tmp.avgRating : 0
+    const tmp_img=props.img.substring(1)
 
 
     return (
         <div className='main'>
             <div className='img_container'>
-                <img src={`${SERVER}static${props.img}`} alt="Bootstrap" width="120px" height="120px" />
+                <img src={`${SERVER}${tmp_img}`} alt="Bootstrap" width="120px" height="120px" />
                 <div onClick={() => dispatch(addToCart(props.prod))} className='add2cart_btn '>Add to cart</div>
                 {productsOrderd.includes(props.prod.id) &&
                     <Popup trigger={<div className='add2cart_btn' style={{ background: 'green' }}> Review</div>} position="right center">
